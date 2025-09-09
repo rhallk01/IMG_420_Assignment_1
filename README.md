@@ -1,4 +1,4 @@
-# This game is a 2d platformer
+# 2d platformer
 
 ## Playable Character
 #### Use the arrow keys and space to move
