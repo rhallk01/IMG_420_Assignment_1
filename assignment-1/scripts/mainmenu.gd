@@ -22,7 +22,7 @@ func show_game_over():
 	$WinOrLose.hide()
 	$WinOrLosebg.hide()
 	$MainMenubg.show()
-	$Message.text = "Get to the chest at the end!"
+	$Message.text = "The Legend of Autumn"
 	$Message.show()
 	$Message2.text = "get the key and\nopen the chest to win...\ndie to lose!"
 	$Message2.show()
@@ -39,7 +39,7 @@ func show_game_won():
 	$WinOrLose.hide()
 	$WinOrLosebg.hide()
 	$MainMenubg.show()
-	$Message.text = "Get to the chest at the end!"
+	$Message.text = "The Legend of Autumn"
 	$Message2.text = "get the key and\nopen the chest to win...\ndie to lose!"
 	$Message.show()
 	$Message2.show()
