@@ -13,7 +13,6 @@ func show_message(text):
 
 
 func show_game_over():
-	$MusicForMenu.play()
 	$WinOrLose.text = "GAME OVER"
 	show()
 	$WinOrLosebg.show()
@@ -29,7 +28,6 @@ func show_game_over():
 	$StartButton.show()
 	
 func show_game_won():
-	$MusicForMenu.play()
 	$WinOrLose.text = "YOU WON!!"
 	$WinOrLose/howDie.hide()
 	show()
@@ -46,7 +44,6 @@ func show_game_won():
 	$StartButton.show()
 
 func _on_start_button_pressed():
-	$MusicForMenu.stop()
 	$MainMenubg.hide()
 	$StartButton.hide()
 	$Message.hide()
