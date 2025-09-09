@@ -1,4 +1,4 @@
-# 2d platformer
+# 2d platformer: The Legend of Autumn
 
 ## Playable Character
 #### Use the arrow keys and space to move
@@ -36,4 +36,4 @@
 * There is music for the Main Menu screen, music for the game, and a death sound
 
 #### NPC:
-* There is an enemy who walks back and forth across a platform, if you touch him you die!
+* There is an enemy who walks back and forth across a platform, if you touch him you die! His name is Winter
