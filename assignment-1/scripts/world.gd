@@ -21,7 +21,7 @@ func new_game():
 	$JumpBoost.show()
 	$Key.show()
 	$Music.play()
-	$Player.speed = 250.0
+	$Player.speed = 200.0
 	$Player.jump_force = -275.0
 	$Player.can_move = true
 
