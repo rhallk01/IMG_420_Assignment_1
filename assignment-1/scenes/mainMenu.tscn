@@ -76,7 +76,7 @@ offset_bottom = 46.0
 grow_horizontal = 2
 size_flags_horizontal = 4
 theme_override_fonts/font = ExtResource("1_ahhtf")
-text = "Get to the chest at the end!"
+text = "The Legend of Autumn"
 horizontal_alignment = 1
 
 [node name="Message2" type="Label" parent="."]
