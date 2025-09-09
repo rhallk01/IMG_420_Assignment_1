@@ -24,7 +24,7 @@ func _on_body_entered(body: Node2D) -> void:
 		$ChestLabel.hide()
 		$ChestLabel/arrow.hide()
 		$Flower.show()
-		await get_tree().create_timer(1.5).timeout
+		await get_tree().create_timer(1.15).timeout
 		game_won.emit()
 	else:
 		need_key.emit()
