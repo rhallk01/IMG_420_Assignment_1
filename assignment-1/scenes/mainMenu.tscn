@@ -116,10 +116,4 @@ theme_override_fonts/font = ExtResource("1_ahhtf")
 theme_override_font_sizes/font_size = 23
 text = "Start!"
 
-[node name="MusicForMenu" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource("4_l7wge")
-volume_db = -5.584
-autoplay = true
-parameters/looping = true
-
 [connection signal="pressed" from="StartButton" to="." method="_on_start_button_pressed"]
