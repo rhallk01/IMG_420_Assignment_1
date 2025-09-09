@@ -77,7 +77,7 @@ func _on_main_menu_start_game() -> void:
 	$HUD_tutorial/BoostMessage.hide()
 	$JumpBoost.show()
 	$Music.play()
-	$Player.speed = 250.0
+	$Player.speed = 200.0
 	$Player.jump_force = -275.0
 	$Player.can_move = true
 
