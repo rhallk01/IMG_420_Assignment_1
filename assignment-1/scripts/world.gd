@@ -3,6 +3,7 @@ extends Node2D
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
+	$Music.play()
 	pass # Replace with function body.
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -20,7 +21,6 @@ func new_game():
 	$HUD_tutorial/BoostMessage.hide()
 	$JumpBoost.show()
 	$Key.show()
-	$Music.play()
 	$Player.speed = 200.0
 	$Player.jump_force = -275.0
 	$Player.can_move = true
@@ -35,7 +35,6 @@ func game_over() -> void:
 	$Player.velocity = Vector2.ZERO
 	$Player.set_physics_process(true)
 	$Player.can_move = false
-	$Music.stop()
 	$DeathSound.play()
 	$MainMenu.show_game_over()
 
@@ -63,7 +62,6 @@ func _on_chest_game_won() -> void:
 	$Player.velocity = Vector2.ZERO
 	$Player.set_physics_process(true)
 	$Player.can_move = false
-	$Music.stop()
 	$Chest.ap.play("closed")
 	$Chest/Flower.hide()
 	$HUD_tutorial/YouWin.hide()
@@ -76,7 +74,6 @@ func _on_main_menu_start_game() -> void:
 	$MainMenu.hide()
 	$HUD_tutorial/BoostMessage.hide()
 	$JumpBoost.show()
-	$Music.play()
 	$Player.speed = 200.0
 	$Player.jump_force = -275.0
 	$Player.can_move = true
