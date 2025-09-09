@@ -25,3 +25,15 @@
   * HUD: There is a HUD that shows movement instructions when on the first platform, boost notifications,
     a message in the top right denoting whether or not you have the key,
     and a "You win!" message if you win or "You need the key" if you reach the chest without the key
+
+# Extra Credit
+#### Animations:
+* The player has animations for idle, run, jump, fall, and crouch walk
+* The enemy has a walking cycle
+* The key spins in place
+
+#### Sound Effects:
+* There is music for the Main Menu screen, music for the game, and a death sound
+
+#### NPC:
+* There is an enemy who walks back and forth across a platform, if you touch him you die!
